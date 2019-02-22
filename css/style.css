@@ -1,0 +1,14 @@
+.nav-item .nav-link{
+   color:#eb8100 !important; 
+}
+
+.btn-outline-theme2:hover {
+    color: #d91284;
+    border-color: #d91284;
+    background-color: transparent;
+}
+
+.btn-outline-theme2 {
+    color: #fff;
+    background-color: #d91284;
+}
