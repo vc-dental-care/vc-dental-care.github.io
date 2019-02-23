@@ -12,3 +12,23 @@
     color: #fff;
     background-color: #d91284;
 }
+
+.nav-button{
+    display:flex !important;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-flow: row nowrap;
+    margin-right: 5vw;
+}
+
+@media (min-width: 768px){
+    .navbar-expand-lg .navbar-collapse{
+        display:flex;
+        justify-content:flex-start;
+    }
+    
+}
+
+.full-height{
+    max-height: 85vh;
+}
