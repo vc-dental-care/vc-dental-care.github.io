@@ -48,6 +48,7 @@
 .at_r {
     float: right;
     width: 90%;
+    padding-left:2vw;
 }
 
 .at_hl {
@@ -82,6 +83,7 @@
 .at_cr {
     float: left;
     width: 90%;
+    padding-left:2vw;
 }
 .at_rl {
     float: left;
@@ -90,6 +92,7 @@
 .at_rr {
     float: left;
     width: 90%;
+    padding-left:2vw;
 }
 
 .at_hl {
@@ -170,7 +173,7 @@ i.fa.fa-search {
 }
 
 .full-height{
-    max-height: 85vh;
+    max-height: 90vh;
 }
 
 .carousel-caption{
