@@ -195,6 +195,15 @@ i.fa.fa-search {
     color:#eb8100;  
 }
 
+.banner-1{
+    background: url(../images/consult.JPG) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
 @media (min-width: 992px){
     
 .carousel-caption{
@@ -252,3 +261,38 @@ i.fa.fa-search {
 
 
 }
+
+/*-- about --*/
+h3.heading {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+p.about-text {
+    width: 80%;
+}
+.feature-grids .f-icon {
+    vertical-align: middle;
+    background: #eb8100;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0.5em auto 0;
+    border-radius: 50%;
+}
+.feature-grids span.fa {
+    color: #fff;
+    font-size: 20px;
+    line-height: 70px;
+}
+.feature-grids h3 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.feature-grids  p {
+    letter-spacing: 1px;
+}
+/*-- //about --*/
