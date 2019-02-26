@@ -164,7 +164,7 @@ i.fa.fa-search {
     margin: auto;
 }
 
-@media (min-width: 768px){
+@media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse{
         display:flex;
         justify-content:flex-end;
