@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .nav-item .nav-link{
    color:#eb8100 !important; 
 }
