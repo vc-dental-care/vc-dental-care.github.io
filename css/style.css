@@ -195,7 +195,7 @@ i.fa.fa-search {
     color:#eb8100;  
 }
 
-@media (min-width: 768px){
+@media (min-width: 992px){
     
 .carousel-caption{
     bottom:10%;
@@ -217,19 +217,19 @@ i.fa.fa-search {
 }
     
 .at_r h3 {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
     
 }
 .at_cr h3 {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
     
 }
 .at_rr h3 {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
   }
