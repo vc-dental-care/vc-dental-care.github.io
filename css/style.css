@@ -299,3 +299,175 @@ p.about-text {
     letter-spacing: 1px;
 }
 /*-- //about --*/
+
+/*-- services --*/
+.mb-60 {
+    margin-bottom: 60px;
+}
+.services-inner {
+    border: 2px solid #445c6e;
+    transition: .3s;
+    border-radius: 4px;
+	border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+.our-services-icon {
+    margin-top: -28px;
+}
+.our-services-icon span.fa {
+    margin-left: 141px;
+    color: #d41288;
+    font-size: 30px;
+    background: #fff;
+    border: 2px solid #445c6e;
+    border-radius: 4px;
+	border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+}
+.our-services-text {
+    overflow: hidden;
+    padding: 25px;
+    text-align: center;
+    background: rgba(255,255,255,0.5);
+}
+.our-services-text h4 {
+    color: #22252a;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.our-services-text h4::before {
+    background: #22252a none repeat scroll 0 0;
+    bottom: 0px;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 90px;
+    margin-left: 58px;
+}
+.our-services-wrapper:hover .services-inner {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid transparent;
+    box-shadow: 0px 1px 10px 0px #445c6e;
+}
+.our-services-text p {
+    margin-bottom: 0;
+    color:#445c6e
+}
+ .services p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #22252a;
+}
+.services  {
+    position: relative;
+}
+
+.s1{
+    background-image: url(../images/1.jpg);
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+    
+}
+
+.s2{
+    background-image: url("../images/2.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+    
+}
+
+.s3{
+    background-image: url("../images/3.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.s4{
+    background-image: url("../images/4.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.s5{
+   background-image: url("../images/5.jpg");
+    background-size :cover; 
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+
+.s6{
+    background-image: url("../images/6.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.s7{
+    background-image: url("../images/7.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.s8{
+    background-image: url("../images/8.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.s9{
+    background-image: url("../images/9.jpg");
+    background-size :cover;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+/*-- //services-- */
