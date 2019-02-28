@@ -266,13 +266,34 @@ i.fa.fa-search {
 }
 
 /*-- about --*/
+
+.about{
+   background-attachment: fixed;
+    background: url(../images/buddha.jpg) no-repeat center 0px fixed ;
+    background-size: cover;
+}
+
 h3.heading {
     font-size: 40px;
     letter-spacing: 2px;
     font-weight: 600;
+    color:gold;
 }
 p.about-text {
     width: 80%;
+    color:beige;
+}
+
+.mt-4 {
+    color:gold;
+}
+
+.mt-3 {
+    color:beige;
+}
+
+.about .container{
+    background: rgba(0,0,0,0.1);
 }
 .feature-grids .f-icon {
     vertical-align: middle;
