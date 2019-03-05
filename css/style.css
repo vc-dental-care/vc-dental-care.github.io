@@ -662,6 +662,20 @@ padding-right: 1.1rem;
     text-align: center;
 }
 
+#popup{
+    display:none;
+}
+
+@media(min-width:768px){
+    
+    #popup{
+    display:block;
+}
+
+    
+}
+
+
 .popup .close {
     position: absolute;
     top: 5px;
