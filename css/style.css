@@ -36,9 +36,9 @@ h6 {
 
 p {
     margin: 0;
-    color: #7c7c7c;
-    font-weight: 300;
-    font-size: 0.9em;
+    color: #000;
+    font-weight: 500;
+    font-size: 1em;
     line-height: 1.9em;
     letter-spacing: 1px;
 }
@@ -540,22 +540,22 @@ p.about-text {
 
 /*--// banner --*/
 
-.tittle-w3layouts,
-.tittle-w3layouts.two {
+.tittle-atlayouts,
+.tittle-atlayouts.two {
     color: #fff;
     font-size: 2.7em;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
 
-.tittle-w3layouts.two {
+.tittle-atlayouts.two {
     color: #262066;
 }
 
-.entry-w3pvt-main {
+.entry-atpvt-main {
     background-color: #ecf0f1;
 }
 
-.entry-w3layouts-info h4 {
+.entry-atlayouts-info h4 {
     color: #e78300;
     font-size: 1.8em;
     text-align: left;
@@ -570,11 +570,11 @@ p.about-text {
     font-size: 1em;
 }
 
-.content-w3pvt-img {
+.content-atpvt-img {
     padding: 0 5em;
 }
 
-.content-w3pvt-img img {
+.content-atpvt-img img {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -o- border-radius: 50%;
@@ -698,4 +698,89 @@ padding-right: 1.1rem;
     position: relative;
     padding-top: 5vh;
 }
+
+/* contact */
+.atpvt-webinfo_mail_grid_right {
+    background: #f7f7f7;
+    padding: 2em;
+    -webkit-box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+    -moz-box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+    box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+}
+
+.atpvt-webinfo_mail_grid_right input[type="text"],
+.atpvt-webinfo_mail_grid_right input[type="email"],
+.atpvt-webinfo_mail_grid_right textarea {
+    outline: none;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+}
+
+.atpvt-webinfo_mail_grid_right textarea {
+    min-height: 180px;
+    width: 100% !important;
+    resize: none;
+}
+
+.atpvt-webinfo_mail_grid_right button {
+    outline: none;
+    padding: 11px 0;
+    font-size: 16px;
+    color: #fff;
+    background: #fc6183;
+    width: 100%;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.contact-left-atls span {
+    font-size: 2em;
+    color: #eb8100;
+}
+
+.contact-left-atls h4 {
+    color: #eb8100;
+    font-size: 1.3em;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.contact-left-atls p a {
+    color: #000;
+}
+
+.contact-left-atls h3 {
+    font-size: 30px;
+    color: #6174fc;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+}
+
+.contact-bg{
+        background-image: url(../images/contact.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-title{
+    color:#d91284;
+}
+
+.contact .p{
+    color:black;
+}
+
+.trans-back{
+    background: rgba(255,255,255,0.5);   
+}
+
 
