@@ -784,3 +784,16 @@ padding-right: 1.1rem;
 }
 
 
+.map iframe {
+    width: 100%;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+@media(min-width:768px){
+    .map iframe {
+        min-height: 350px;
+    }
+}
+
