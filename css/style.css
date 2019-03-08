@@ -789,6 +789,7 @@ padding-right: 1.1rem;
     border: none;
     outline: none;
     display: block;
+    padding-bottom: 2vh;
 }
 
 .contact-phone{
