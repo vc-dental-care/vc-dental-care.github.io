@@ -791,9 +791,17 @@ padding-right: 1.1rem;
     display: block;
 }
 
+.contact-phone{
+    padding-bottom: 2vh;
+}
+
 @media(min-width:768px){
     .map iframe {
         min-height: 350px;
     }
 }
 
+.footer-copyright{
+    background-color: #eb8100;
+    color:#fff;
+}
