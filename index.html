@@ -23,6 +23,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script/script.js"></script>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("toTop").style.display = "block";
+            } else {
+                document.getElementById("toTop").style.display = "none";
+            }
+        }  
+    </script>
     
     <!--nav bar -->
     <nav class="navbar  navbar-expand-lg navbar-light bg-light">
@@ -194,7 +205,7 @@
 							<span class="fa fa-tooth"></span>
 						</div>
 						<div class="our-services-text">
-							<h4>Different Braces</h4>
+							<h4>Customized Braces</h4>
 							<p>Customized, individualized braces using invisalign or Insignia Treatment.</p>
 						</div>
 					</div>
@@ -366,7 +377,7 @@
                     <h4>Anxiety Free Environment</h4>
                     <p class="mt-2 text-left">Exclusively designed interiors with modern environment to keep you at ease.</p>
                     <p class="mt-2 text-left">All the consulation rooms are air conditioned with specially designed chairs for your comfort.</p>
-                    <p class="mt-2 text-left">Seperate consultation room for Kids.</p>
+                    <p class="mt-2 text-left">Separate consultation room for Kids.</p>
                 </div>
                 <div class="col-md-5 right-image content-atpvt-img">
                     <img src="images/art.jpg" alt="" class="img-fluid">
@@ -381,7 +392,7 @@
                     <h5 class="mt-1">Our Experience</h5>
                     <h4>Professional Doctors</h4>
                     <p class="mt-2 text-left">20+ years of professional experience in the dental industry with over 3000 successful clients.</p>
-                    <p class="mt-2 text-left">Team of doctors with various specialization skills in Orthodentistry,Implantalogy, Cosmic Dental,Aesthetic Dental and Dental Surgery.</p>   
+                    <p class="mt-2 text-left">Team of doctors with various specialization skills in Orthodontics,Implantology, Cosmetic Dentistry,Aesthetic Dentistry and Dental Surgery.</p>   
 
                 </div>
 
@@ -564,6 +575,8 @@
 
             </footer>
             <!-- Footer -->
+      
+            <a href="#" id="toTop" style="display: none;"><span id="toTopHover" style="opacity: 0;"></span>To Top</a>
 
   </body>
 </html>
