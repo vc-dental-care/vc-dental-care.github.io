@@ -29,8 +29,10 @@
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 document.getElementById("toTop").style.display = "block";
+                document.getElementById("action-btns").style.display = "block";
             } else {
                 document.getElementById("toTop").style.display = "none";
+                document.getElementById("action-btns").style.display = "none";
             }
         }  
     </script>
@@ -552,7 +554,7 @@
 								<div class="col-md-10 col-sm-10 col-10 contact-phone">
 									<h4>Call us</h4>
                                     <p>+91 73958 06366</p>
-                                    <p>+91 421 2206366</p>
+                                    <p>+91 421 4256366</p>
 								</div>
 							</div>
 						</div>
@@ -563,6 +565,20 @@
 				</div>
 			</section>
 			<!-- //contact -->
+            <section id="action-btns" style="display: none;">
+                <div class="btn-group fixed-bottom" role="group" aria-label="Basic example">
+                    
+                    <button type="button" onclick="window.open('tel:+917395806366')"class="btn btn-outline-theme2"><i class="fa fa-phone-square" aria-hidden="true"></i> Call Us</button>
+                    
+                    <button type="button" onclick="window.open('https://in.bestosys.com/appointmentWizard.jsp?authToken=024881537865964000','_blank')" class="btn btn-outline-theme2"><i class="fa fa-book" aria-hidden="true"></i> Appointment</button> 
+                    
+                    
+                    
+
+                </div>
+      
+      
+            </section>
 			
             <!-- Footer -->
             <footer class="page-footer font-small blue">
@@ -576,7 +592,8 @@
             </footer>
             <!-- Footer -->
       
-            <a href="#" id="toTop" style="display: none;"><span id="toTopHover" style="opacity: 0;"></span>To Top</a>
-
+      
+          <a href="#" id="toTop" style="display: none;"><span id="toTopHover" style="opacity: 0;"></span>To Top</a>
+           
   </body>
 </html>

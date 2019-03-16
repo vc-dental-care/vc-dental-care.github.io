@@ -53,12 +53,13 @@ p {
 .btn-outline-theme2:hover {
     color: #d91284;
     border-color: #d91284;
-    background-color: transparent;
+    background-color: #fff;
 }
 
 .btn-outline-theme2 {
     color: #fff;
     background-color: #d91284;
+    border-color: #fff;
 }
 
 .nav-button{
@@ -77,9 +78,19 @@ p {
     background-color:#d91284;
 }
 
+.sticky-top{
+    position:initial;
+}
+
 @media (min-width: 768px){
     .headerdown{
         height: 70px;
+    }
+    
+    .sticky-top{
+        position:sticky;
+        top :0;
+        z-index: 1000;
     }
     
 }
@@ -800,6 +811,10 @@ padding-right: 1.1rem;
     .map iframe {
         min-height: 350px;
     }
+    
+    #action-btns{
+        display:none !important;
+    }
 }
 
 .footer-copyright{
@@ -812,7 +827,7 @@ padding-right: 1.1rem;
     display: none;
     text-decoration: none;
     position: fixed;
-    bottom: 24px;
+    bottom: 40px;
     right: 3%;
     overflow: hidden;
     z-index: 999;
