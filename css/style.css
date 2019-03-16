@@ -228,8 +228,13 @@ i.fa.fa-search {
 }
 
 .full-height{
-    max-height: 90vh;
+    max-height: 95vh;
 }
+.carouselExampleCaptions{
+    
+}
+
+
 
 .carousel-caption{
     bottom:10%;
@@ -689,8 +694,8 @@ padding-right: 1.1rem;
 
 .popup .close {
     position: absolute;
-    top: 5px;
-    right: 15px;
+    top: 80px;
+    right: 40px;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
