@@ -51,9 +51,7 @@ p {
 }
 
 .btn-outline-theme2:hover {
-    color: #d91284;
-    border-color: #d91284;
-    background-color: #fff;
+    color: #fff;
 }
 
 .btn-outline-theme2 {
